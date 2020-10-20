@@ -35,7 +35,7 @@ class GroupViewSet(viewsets.ModelViewSet):
 @api_view(['GET', 'POST'])
 def clientes_list(request):
     """
- List  clientes, or create a new cliente.
+ List  clientes or create a niu cliente.
  """
     if request.method == 'GET':
         data = []
